@@ -27,7 +27,6 @@ class BookingController extends AbstractController
      */
     public function index(BookingRepository $bookingRepository): Response
     {
-        dd($bookingRepository->findExpiered());
         $booking = new Booking();
         $form = $this->createForm(BookingType::class, $booking);
 
