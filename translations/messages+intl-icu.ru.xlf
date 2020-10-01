@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="7bRlYkK" resname="note">
+        <source>note</source>
+        <target>ПРИМЕЧАНИЕ</target>
+      </trans-unit>
+      <trans-unit id="lzgBh6h" resname="tip">
+        <source>tip</source>
+        <target>СОВЕТ</target>
+      </trans-unit>
+      <trans-unit id="tbB2gib" resname="not_available">
+        <source>not_available</source>
+        <target>Недоступно</target>
+      </trans-unit>
+      <trans-unit id="F0dwSb7" resname="mit_license">
+        <source>mit_license</source>
+        <target>MIT Лицензия</target>
+      </trans-unit>
+      <trans-unit id="DF34uM2" resname="http_error.name">
+        <source>http_error.name</source>
+        <target>Ошибка {status_code, number}</target>
+      </trans-unit>
+      <trans-unit id="e3w.2Rf" resname="http_error.description">
+        <source>http_error.description</source>
+        <target>Произошла неизвестная ошибка (HTTP {status_code, number}), которая помешала выполнить ваш запрос.</target>
+      </trans-unit>
+      <trans-unit id="ru5FEGk" resname="http_error.suggestion">
+        <source>http_error.suggestion</source>
+        <target><![CDATA[Попробуйте загрузить эту страницу снова через несколько минут или <a href="{url}">вернитесь на главную страницу</a>.]]></target>
+      </trans-unit>
+      <trans-unit id="Qn5rwdU" resname="http_error_403.description">
+        <source>http_error_403.description</source>
+        <target>У вас нет разрешения на доступ к этому ресурсу.</target>
+      </trans-unit>
+      <trans-unit id="zDeeh7L" resname="http_error_403.suggestion">
+        <source>http_error_403.suggestion</source>
+        <target>Запросите доступ к этому ресурсу у вашего менеджера или системного администратора.</target>
+      </trans-unit>
+      <trans-unit id="_W1eNz2" resname="http_error_404.description">
+        <source>http_error_404.description</source>
+        <target>Мы не смогли найти запрашиваемую вами страницу.</target>
+      </trans-unit>
+      <trans-unit id="MWNS5dg" resname="http_error_404.suggestion">
+        <source>http_error_404.suggestion</source>
+        <target><![CDATA[Проверьте корректность введенного URL или <a href="{url}">вернитесь на главную страницу</a>.]]></target>
+      </trans-unit>
+      <trans-unit id="ZYXSW95" resname="http_error_500.description">
+        <source>http_error_500.description</source>
+        <target>Произошла внутренняя ошибка сервера.</target>
+      </trans-unit>
+      <trans-unit id="VVs_J1c" resname="http_error_500.suggestion">
+        <source>http_error_500.suggestion</source>
+        <target><![CDATA[Попробуйте загрузить эту страницу снова через несколько минут или <a href="{url}">вернитесь на главную страницу</a>.]]></target>
+      </trans-unit>
+      <trans-unit id="0azKJvE" resname="title.homepage">
+        <source>title.homepage</source>
+        <target><![CDATA[Добро пожаловать в <strong>Symfony Demo</strong> приложение]]></target>
+      </trans-unit>
+      <trans-unit id="9RwuNlf" resname="title.source_code">
+        <source>title.source_code</source>
+        <target>Исходный код, который использовался для отображения этой страницы</target>
+      </trans-unit>
+      <trans-unit id="jaB3QjG" resname="title.controller_code">
+        <source>title.controller_code</source>
+        <target>Код контроллера</target>
+      </trans-unit>
+      <trans-unit id="2bH7SjO" resname="title.twig_template_code">
+        <source>title.twig_template_code</source>
+        <target>Код шаблона Twig</target>
+      </trans-unit>
+      <trans-unit id="80JoLd0" resname="title.login">
+        <source>title.login</source>
+        <target>Авторизация</target>
+      </trans-unit>
+      <trans-unit id="6sz9l7G" resname="title.post_list">
+        <source>title.post_list</source>
+        <target>Список записей</target>
+      </trans-unit>
+      <trans-unit id="6mAd7C7" resname="title.edit_post">
+        <source>title.edit_post</source>
+        <target>Изменение записи #{id, number}</target>
+      </trans-unit>
+      <trans-unit id="RElHkkW" resname="title.add_comment">
+        <source>title.add_comment</source>
+        <target>Добавить комментарий</target>
+      </trans-unit>
+      <trans-unit id="KuKEZ2." resname="title.comment_error">
+        <source>title.comment_error</source>
+        <target>Произошла ошибка во время публикации вашего комментария</target>
+      </trans-unit>
+      <trans-unit id="1sstKF9" resname="title.edit_user">
+        <source>title.edit_user</source>
+        <target>Изменить пользователя</target>
+      </trans-unit>
+      <trans-unit id="rrU0GR8" resname="title.change_password">
+        <source>title.change_password</source>
+        <target>Изменить пароль</target>
+      </trans-unit>
+      <trans-unit id="Ffi98jp" resname="action.show">
+        <source>action.show</source>
+        <target>Показать</target>
+      </trans-unit>
+      <trans-unit id="VO1bKFS" resname="action.show_post">
+        <source>action.show_post</source>
+        <target>Показать запись</target>
+      </trans-unit>
+      <trans-unit id="QbohvW1" resname="action.show_code">
+        <source>action.show_code</source>
+        <target>Показать код</target>
+      </trans-unit>
+      <trans-unit id="ovKkXwU" resname="action.edit">
+        <source>action.edit</source>
+        <target>Изменить</target>
+      </trans-unit>
+      <trans-unit id="lpqpnUS" resname="action.edit_post">
+        <source>action.edit_post</source>
+        <target>Изменить запись</target>
+      </trans-unit>
+      <trans-unit id="HLtdhYw" resname="action.save">
+        <source>action.save</source>
+        <target>Сохранить изменения</target>
+      </trans-unit>
+      <trans-unit id="d_4ma5r" resname="action.delete_post">
+        <source>action.delete_post</source>
+        <target>Удалить запись</target>
+      </trans-unit>
+      <trans-unit id="CAMlK1D" resname="delete_post_modal.title">
+        <source>delete_post_modal.title</source>
+        <target>Вы уверены, что хотите удалить эту запись?</target>
+      </trans-unit>
+      <trans-unit id="4FkRv.I" resname="delete_post_modal.body">
+        <source>delete_post_modal.body</source>
+        <target>Это действие не может быть отменено.</target>
+      </trans-unit>
+      <trans-unit id="oRRFO4u" resname="label.delete_post">
+        <source>label.delete_post</source>
+        <target>Удалить запись</target>
+      </trans-unit>
+      <trans-unit id="8yeGT7d" resname="label.cancel">
+        <source>label.cancel</source>
+        <target>Отменить</target>
+      </trans-unit>
+      <trans-unit id="BiPY0TX" resname="label.delete">
+        <source>label.delete</source>
+        <target>Удалить запись</target>
+      </trans-unit>
+      <trans-unit id="G1QItEF" resname="action.create_post">
+        <source>action.create_post</source>
+        <target>Создать новую запись</target>
+      </trans-unit>
+      <trans-unit id="J76H6bc" resname="label.create_post">
+        <source>label.create_post</source>
+        <target>Создать запись</target>
+      </trans-unit>
+      <trans-unit id="KM4MSbI" resname="label.save_and_create_new">
+        <source>label.save_and_create_new</source>
+        <target>Сохранить и создать новую</target>
+      </trans-unit>
+      <trans-unit id="Rmxwd1D" resname="action.back_to_list">
+        <source>action.back_to_list</source>
+        <target>Назад к списку записей</target>
+      </trans-unit>
+      <trans-unit id="E36cr6o" resname="action.publish_comment">
+        <source>action.publish_comment</source>
+        <target>Опубликовать комментарий</target>
+      </trans-unit>
+      <trans-unit id="z2pPSYV" resname="action.sign_in">
+        <source>action.sign_in</source>
+        <target>Войти</target>
+      </trans-unit>
+      <trans-unit id="Y1PJw41" resname="action.browse_app">
+        <source>action.browse_app</source>
+        <target>Перейти в публичный раздел</target>
+      </trans-unit>
+      <trans-unit id="l9A3J40" resname="action.browse_admin">
+        <source>action.browse_admin</source>
+        <target>Панель управления</target>
+      </trans-unit>
+      <trans-unit id="etGJjTo" resname="action.edit_user">
+        <source>action.edit_user</source>
+        <target>Изменить пользователя</target>
+      </trans-unit>
+      <trans-unit id="CX_oSFd" resname="action.change_password">
+        <source>action.change_password</source>
+        <target>Изменить пароль</target>
+      </trans-unit>
+      <trans-unit id="UrRn8xj" resname="label.title">
+        <source>label.title</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit id="bxYZLcN" resname="label.author">
+        <source>label.author</source>
+        <target>Автор</target>
+      </trans-unit>
+      <trans-unit id="uh.E_Fq" resname="label.author_email">
+        <source>label.author_email</source>
+        <target>Email автора</target>
+      </trans-unit>
+      <trans-unit id="LDhDPrF" resname="label.username">
+        <source>label.username</source>
+        <target>Логин</target>
+      </trans-unit>
+      <trans-unit id="aYnbvsn" resname="label.fullname">
+        <source>label.fullname</source>
+        <target>Полное имя</target>
+      </trans-unit>
+      <trans-unit id="D2N6_cP" resname="label.email">
+        <source>label.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="9pvowqn" resname="label.password">
+        <source>label.password</source>
+        <target>Пароль</target>
+      </trans-unit>
+      <trans-unit id="pGkejkU" resname="label.current_password">
+        <source>label.current_password</source>
+        <target>Текущий пароль</target>
+      </trans-unit>
+      <trans-unit id="iiWFLaI" resname="label.new_password">
+        <source>label.new_password</source>
+        <target>Новый пароль</target>
+      </trans-unit>
+      <trans-unit id="Ucl9Jfc" resname="label.new_password_confirm">
+        <source>label.new_password_confirm</source>
+        <target>Подтвердите пароль</target>
+      </trans-unit>
+      <trans-unit id="O59lP5d" resname="label.role">
+        <source>label.role</source>
+        <target>Роль</target>
+      </trans-unit>
+      <trans-unit id="qqpGLJl" resname="label.content">
+        <source>label.content</source>
+        <target>Содержание</target>
+      </trans-unit>
+      <trans-unit id="tT7OhMP" resname="label.summary">
+        <source>label.summary</source>
+        <target>Краткое содержание</target>
+      </trans-unit>
+      <trans-unit id="xrlnqyo" resname="label.published_at">
+        <source>label.published_at</source>
+        <target>Опубликовано</target>
+      </trans-unit>
+      <trans-unit id="ijQyGRo" resname="label.tags">
+        <source>label.tags</source>
+        <target>Теги</target>
+      </trans-unit>
+      <trans-unit id="zldXQq6" resname="label.actions">
+        <source>label.actions</source>
+        <target>Действия</target>
+      </trans-unit>
+      <trans-unit id="_SZYoOn" resname="title.post_new">
+        <source>title.post_new</source>
+        <target>Создание записи</target>
+      </trans-unit>
+      <trans-unit id="1wYTt2x" resname="action.edit_contents">
+        <source>action.edit_contents</source>
+        <target>Изменить содержание</target>
+      </trans-unit>
+      <trans-unit id="sqML_MO" resname="menu.toggle_nav">
+        <source>menu.toggle_nav</source>
+        <target>Переключить навигацию</target>
+      </trans-unit>
+      <trans-unit id="SWM2jM." resname="menu.choose_language">
+        <source>menu.choose_language</source>
+        <target>Выбрать язык</target>
+      </trans-unit>
+      <trans-unit id="3XHWUzG" resname="menu.post_list">
+        <source>menu.post_list</source>
+        <target>Список записей</target>
+      </trans-unit>
+      <trans-unit id="7eZ5X01" resname="menu.back_to_blog">
+        <source>menu.back_to_blog</source>
+        <target>Назад к блогу</target>
+      </trans-unit>
+      <trans-unit id="UoOv6mx" resname="menu.homepage">
+        <source>menu.homepage</source>
+        <target>Главная страница</target>
+      </trans-unit>
+      <trans-unit id="wvvYSw_" resname="menu.admin">
+        <source>menu.admin</source>
+        <target>Панель управления</target>
+      </trans-unit>
+      <trans-unit id="rjDqmQR" resname="menu.user">
+        <source>menu.user</source>
+        <target>Аккаунт</target>
+      </trans-unit>
+      <trans-unit id="wBTFKFR" resname="menu.logout">
+        <source>menu.logout</source>
+        <target>Выйти</target>
+      </trans-unit>
+      <trans-unit id="0gTEZVk" resname="menu.rss">
+        <source>menu.rss</source>
+        <target>RSS Записей Блога</target>
+      </trans-unit>
+      <trans-unit id="k6VxCsO" resname="menu.search">
+        <source>menu.search</source>
+        <target>Поиск</target>
+      </trans-unit>
+      <trans-unit id="zY.oLN." resname="post.to_publish_a_comment">
+        <source>post.to_publish_a_comment</source>
+        <target>опубликовать комментарий</target>
+      </trans-unit>
+      <trans-unit id="is7pld7" resname="post.num_comments">
+        <source>post.num_comments</source>
+        <target>{count, plural, one {# комментарий} few {# комментария} other {# комментариев}}</target>
+      </trans-unit>
+      <trans-unit id="vdsQrtG" resname="post.commented_on">
+        <source>post.commented_on</source>
+        <target>прокомментировано</target>
+      </trans-unit>
+      <trans-unit id="UZzyX5e" resname="post.no_comments">
+        <source>post.no_comments</source>
+        <target>Будьте первыми кто прокомментирует эту запись.</target>
+      </trans-unit>
+      <trans-unit id="aMaXcw0" resname="post.no_posts_found">
+        <source>post.no_posts_found</source>
+        <target>Ни одной записи не найдено.</target>
+      </trans-unit>
+      <trans-unit id="uIfkb5m" resname="post.created_successfully">
+        <source>post.created_successfully</source>
+        <target>Запись успешно создана!</target>
+      </trans-unit>
+      <trans-unit id="1TdLwHn" resname="post.updated_successfully">
+        <source>post.updated_successfully</source>
+        <target>Запись успешно обновлена!</target>
+      </trans-unit>
+      <trans-unit id="REYq3Ar" resname="post.deleted_successfully">
+        <source>post.deleted_successfully</source>
+        <target>Запись успешно удалена!</target>
+      </trans-unit>
+      <trans-unit id="rAoWddb" resname="post.search_for">
+        <source>post.search_for</source>
+        <target>Искать запись...</target>
+      </trans-unit>
+      <trans-unit id="_SSBmQW" resname="post.search_no_results">
+        <source>post.search_no_results</source>
+        <target>Ничего не найдено</target>
+      </trans-unit>
+      <trans-unit id="aDHFJmo" resname="action.create_booking">
+        <source>action.create_booking</source>
+        <target>Добавить событие</target>
+      </trans-unit>
+      <trans-unit id="7kYREVw" resname="title.booking_list">
+        <source>title.booking_list</source>
+        <target>Список событий</target>
+      </trans-unit>
+      <trans-unit id="fxUgRRe" resname="menu.booking_list">
+        <source>menu.booking_list</source>
+        <target>Список событий</target>
+      </trans-unit>
+      <trans-unit id="E6x8B4x" resname="row.updated_successfully">
+        <source>row.updated_successfully</source>
+        <target>Информация успешно обновлена!</target>
+      </trans-unit>
+      <trans-unit id="OBmPOoB" resname="user.updated_successfully">
+        <source>user.updated_successfully</source>
+        <target>Информация о пользователе успешно обновлена!</target>
+      </trans-unit>
+      <trans-unit id="KheXs2k" resname="notification.comment_created">
+        <source>notification.comment_created</source>
+        <target>Ваша запись получила комментарий!</target>
+      </trans-unit>
+      <trans-unit id="VEcVbGK" resname="notification.comment_created.description">
+        <source>notification.comment_created.description</source>
+        <target><![CDATA[Ваша запись "{title}" получила новый комментарий. Вы можете прочесть этот коментарий, перейдя по <a href="{link}">этой ссылке</a>]]></target>
+      </trans-unit>
+      <trans-unit id="JPjzTgz" resname="help.app_description">
+        <source>help.app_description</source>
+        <target><![CDATA[Это <strong>демо приложение</strong> создано на основе Symfony фреймворка для того, чтобы показать рекомендованный способ разработки Symfony приложений.]]></target>
+      </trans-unit>
+      <trans-unit id="VgeTgE2" resname="help.show_code">
+        <source>help.show_code</source>
+        <target><![CDATA[Нажмите на эту кнопку для просмотра исходного кода <strong>Контроллера</strong> и <strong>шаблона</strong>, которые использовались для отображения этой страницы.]]></target>
+      </trans-unit>
+      <trans-unit id="tuBXYUW" resname="help.browse_app">
+        <source>help.browse_app</source>
+        <target><![CDATA[Перейти в <strong>публичный раздел</strong> демо приложения.]]></target>
+      </trans-unit>
+      <trans-unit id="mUBeOVP" resname="help.browse_admin">
+        <source>help.browse_admin</source>
+        <target><![CDATA[Перейти в <strong>панель управления</strong> демо приложения.]]></target>
+      </trans-unit>
+      <trans-unit id="7s0ZMku" resname="help.login_users">
+        <source>help.login_users</source>
+        <target>Используйте любого из следующих пользователей</target>
+      </trans-unit>
+      <trans-unit id="NTiRWXv" resname="help.role_user">
+        <source>help.role_user</source>
+        <target>обычный пользователь</target>
+      </trans-unit>
+      <trans-unit id="WVrtpfW" resname="help.role_admin">
+        <source>help.role_admin</source>
+        <target>администратор</target>
+      </trans-unit>
+      <trans-unit id="m.1q26M" resname="help.reload_fixtures">
+        <source>help.reload_fixtures</source>
+        <target>Если эти пользователи не работают, перезагрузите фикстуры приложения, выполнив в консоли следующую команду:</target>
+      </trans-unit>
+      <trans-unit id=".rVk3CB" resname="help.add_user">
+        <source>help.add_user</source>
+        <target>Если вы хотите создать новых пользователей, воспользуйтесь следующей командой:</target>
+      </trans-unit>
+      <trans-unit id="Km5w.Hs" resname="help.more_information">
+        <source>help.more_information</source>
+        <target><![CDATA[Для дополнительной информации обратитесь к <a href="https://symfony.com/doc">Symfony документации</a>.]]></target>
+      </trans-unit>
+      <trans-unit id="BqPd4TD" resname="help.post_summary">
+        <source>help.post_summary</source>
+        <target>В кратком содержании не допускается использование Markdown разметки и HTML-тегов, только простой текст.</target>
+      </trans-unit>
+      <trans-unit id="9NUEfJS" resname="help.post_publication">
+        <source>help.post_publication</source>
+        <target>Установите дату в будущем, чтобы запланировать публикацию поста в блоге.</target>
+      </trans-unit>
+      <trans-unit id=".3Ig3V1" resname="help.post_content">
+        <source>help.post_content</source>
+        <target>Используйте Markdown разметку для оформления записи. HTML тоже разрешён.</target>
+      </trans-unit>
+      <trans-unit id="6iYoX0v" resname="help.comment_content">
+        <source>help.comment_content</source>
+        <target>Комментарии, не соответствующие нашему Кодексу поведения, будут модерироваться.</target>
+      </trans-unit>
+      <trans-unit id="wtG.cxy" resname="info.change_password">
+        <source>info.change_password</source>
+        <target>После изменения пароля Вам потребуется заново авторизоваться в приложении.</target>
+      </trans-unit>
+      <trans-unit id="DkZtOOL" resname="rss.title">
+        <source>rss.title</source>
+        <target>Symfony Demo блог</target>
+      </trans-unit>
+      <trans-unit id="ZFPsu41" resname="rss.description">
+        <source>rss.description</source>
+        <target>Самые последние записи, опубликованные в Symfony Demo блоге</target>
+      </trans-unit>
+      <trans-unit id="oOXdtd2" resname="paginator.previous">
+        <source>paginator.previous</source>
+        <target>Назад</target>
+      </trans-unit>
+      <trans-unit id="rjAecsf" resname="paginator.next">
+        <source>paginator.next</source>
+        <target>Вперед</target>
+      </trans-unit>
+      <trans-unit id="tX4BnBn" resname="paginator.current">
+        <source>paginator.current</source>
+        <target>(текущая)</target>
+      </trans-unit>
+      <trans-unit id="YSMSCSh" resname="label.begin_at">
+        <source>label.begin_at</source>
+        <target>Дата начала</target>
+      </trans-unit>
+      <trans-unit id="OpQaMxN" resname="label.end_at">
+        <source>label.end_at</source>
+        <target>Дата окончания</target>
+      </trans-unit>
+      <trans-unit id="IvdYuGh" resname="help.begin_at">
+        <source>help.begin_at</source>
+        <target>Установите дату начала события</target>
+      </trans-unit>
+      <trans-unit id="wkryfWT" resname="help.end_at">
+        <source>help.end_at</source>
+        <target>Установите дату окончания события</target>
+      </trans-unit>
+      <trans-unit id="TwPSz4J" resname="booking.created_successfully">
+        <source>booking.created_successfully</source>
+        <target>Событие создано</target>
+      </trans-unit>
+      <trans-unit id="28RMdgY" resname="delete_row_modal.title">
+        <source>delete_row_modal.title</source>
+        <target>Вы уверены, что хотите удалить эту запись?</target>
+      </trans-unit>
+      <trans-unit id="IaQ1qS7" resname="delete_row_modal.body">
+        <source>delete_row_modal.body</source>
+        <target>Это действие не может быть отменено.</target>
+      </trans-unit>
+      <trans-unit id="ez1lSLN" resname="title.edit_row">
+        <source>title.edit_row</source>
+        <target>Изменение записи #{id, number}</target>
+      </trans-unit>
+      <trans-unit id="jQjOpO_" resname="menu.back_to_calendar">
+        <source>menu.back_to_calendar</source>
+        <target>Посмотреть календарь</target>
+      </trans-unit>
+      <trans-unit id="mMdg0uH" resname="menu.login">
+        <source>menu.login</source>
+        <target>Войти</target>
+      </trans-unit>
+      <trans-unit id="yOzZTn." resname="menu.add_booking">
+        <source>menu.add_booking</source>
+        <target>Добавить встречу</target>
+      </trans-unit>
+      <trans-unit id="TeGpIgD" resname="menu.add_user">
+        <source>menu.add_user</source>
+        <target>Добавить пользователя</target>
+      </trans-unit>
+      <trans-unit id="1X1_Ms0" resname="modal.add_event">
+        <source>modal.add_event</source>
+        <target>Добавить событие</target>
+      </trans-unit>
+      <trans-unit id="wCazS.X" resname="action.close">
+        <source>action.close</source>
+        <target>Закрыть</target>
+      </trans-unit>
+      <trans-unit id="sZQMZgA" resname="label.start_time">
+        <source>label.start_time</source>
+        <target>Время начала</target>
+      </trans-unit>
+      <trans-unit id="17MAolr" resname="label.end_time">
+        <source>label.end_time</source>
+        <target>Время окончания</target>
+      </trans-unit>
+      <trans-unit id="s11sZgn" resname="title.booking_new">
+        <source>title.booking_new</source>
+        <target>Добавить событие</target>
+      </trans-unit>
+      <trans-unit id="_CrRJ6I" resname="title.booking_edit">
+        <source>title.booking_edit</source>
+        <target>Редактировать событие</target>
+      </trans-unit>
+      <trans-unit id="Vcxh12u" resname="title.booking_view">
+        <source>title.booking_view</source>
+        <target>Просмотр события</target>
+      </trans-unit>
+      <trans-unit id="KYJy6Qr" resname="label.time">
+        <source>label.time</source>
+        <target>Время</target>
+      </trans-unit>
+      <trans-unit id="cwRaJJi" resname="modal.edit_event">
+        <source>modal.edit_event</source>
+        <target>Редактировать событие</target>
+      </trans-unit>
+      <trans-unit id="cwRaJJ3" resname="label.description">
+        <source>label.description</source>
+        <target>Описание</target>
+      </trans-unit>
+      <trans-unit id="cwRaJJ1" resname="label.color">
+        <source>label.color</source>
+        <target>Цвет</target>
+      </trans-unit>
+      <trans-unit id="cwRaJJ7" resname="label.status">
+        <source>label.status</source>
+        <target>Статус</target>
+      </trans-unit>
+      <trans-unit id="cwRaJk7" resname="action.delete">
+        <source>action.delete</source>
+        <target>Удалить</target>
+      </trans-unit>
+      <trans-unit id="menu.user_list" resname="menu.user_list">
+        <source>menu.user_list</source>
+        <target>Пользователи</target>
+      </trans-unit>
+      <trans-unit id="title.user_list" resname="title.user_list">
+        <source>title.user_list</source>
+        <target>Список пользователей</target>
+      </trans-unit>
+      <trans-unit id="action.create_user" resname="action.create_user">
+        <source>action.create_user</source>
+        <target>Добавить пользователя</target>
+      </trans-unit>
+      <trans-unit id="title.user_new" resname="title.user_new">
+        <source>title.user_new</source>
+        <target>Добавить пользователя</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,18 @@
+{% extends 'admin/layout.html.twig' %}
+
+{% block body_id 'admin_booking_show' %}
+
+{% block main %}
+    <h1>{{ user.email }}</h1>
+
+    <p class="post-metadata">
+        <span class="metadata">{{ user.fullName}}</span>
+        <span class="metadata">{{ user.username}}</span>
+        <span class="metadata">{{ user.email}}</span>
+    </p>
+    <a href="{{ path('admin_user_index') }}" class="btn btn-link">
+        <i class="fa fa-list-alt" aria-hidden="true"></i> {{ 'action.back_to_list'|trans }}
+    </a>
+{% endblock %}
+
+

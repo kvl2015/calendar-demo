@@ -1,0 +1,52 @@
+# These lines define a route using YAML configuration. The controller used by
+# the route (FrameworkBundle:Template:template) is a convenient shortcut when
+# the template can be rendered without executing any logic in your own controller.
+# See https://symfony.com/doc/current/templates.html#rendering-a-template-directly-from-a-route
+
+security_login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+    methods: [POST, JSON]
+
+calendar_edit_event:
+    path: /edit-event
+    controller: App\Controller\BookingController::edit
+    methods: [GET]
+    defaults:
+        _locale: 'ru'
+
+calendar_update_event:
+    path: /update-event
+    controller: App\Controller\BookingController::edit
+    methods: [POST, GET]
+    defaults:
+        _locale: 'ru'
+
+calendar_drag_event:
+    path: /drag-event
+    controller: App\Controller\BookingController::drag
+    methods: [POST, GET]
+    defaults:
+        _locale: 'ru'
+
+calendar_remove_event:
+    path: /remove-event
+    controller: App\Controller\BookingController::delete
+    methods: [POST, GET]
+    defaults:
+        _locale: 'ru'
+
+calendar_add_event:
+    path: /add-event
+    controller: App\Controller\BookingController::new
+    methods: [POST, GET]
+
+homepage:
+    path: /{_locale}
+    #controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+    controller: App\Controller\SecurityController::login
+    requirements:
+        _locale: '%app_locales%'
+    defaults:
+        template: booking/index.html.twig
+        _locale: '%locale%'

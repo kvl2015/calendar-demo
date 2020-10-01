@@ -1,0 +1,14 @@
+{% extends 'admin/layout.html.twig' %}
+
+{% block body_id 'admin_booking_edit' %}
+
+{% block main %}
+    <h1>{{ 'title.edit_row'|trans({'%id%': booking.id}) }}</h1>
+
+    {{ include('admin/booking/_form.html.twig', {
+        form: form,
+        button_label: 'action.save'|trans,
+        include_back_to_home_link: true,
+    }, with_context = false) }}
+{% endblock %}
+

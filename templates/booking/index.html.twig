@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body_id 'booking_index' %}
+
+{% block main %}
+
+
+
+    <div id="calendar-holder"></div>
+
+    {{ include('modals/_new_booking.html.twig') }}
+
+    {{ include('modals/_edit_booking.html.twig') }}
+
+    {{ include('modals/_view_booking.html.twig') }}
+
+
+{% endblock %}
+
+
+

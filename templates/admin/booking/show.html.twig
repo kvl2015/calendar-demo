@@ -1,0 +1,24 @@
+{% extends 'admin/layout.html.twig' %}
+
+{% block body_id 'admin_booking_show' %}
+
+{% block main %}
+    <h1>{{ booking.title }}</h1>
+
+    <p class="post-metadata">
+        <span class="metadata"><i class="fa fa-calendar"></i> {{ booking.beginAt|format_datetime('short', 'none', locale='ru') }}</span>
+        <span class="metadata"><i class="fa fa-clock"></i> {{ booking.startTime|format_datetime('none', 'short', locale='ru') }} - {{ booking.endTime ? booking.endTime|format_datetime('none', 'short', locale='ru') : '23:59' }}</span>
+        <span class="metadata"><i class="fa fa-user"></i> {{ booking.author.fullName }}</span>
+    </p>
+    <p class="post-metadata" style="color: {{ booking.color }}">
+        {{ booking.title }}
+    </p>
+    <p class="post-metadata">
+        {{ booking.description }}
+    </p>
+    <a href="{{ path('admin_booking_index') }}" class="btn btn-link">
+        <i class="fa fa-list-alt" aria-hidden="true"></i> {{ 'action.back_to_list'|trans }}
+    </a>
+{% endblock %}
+
+

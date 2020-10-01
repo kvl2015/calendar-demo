@@ -1,0 +1,21 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <h4 class="modal-title">{{ 'modal.view_event'|trans }}</h4>
+</div>
+<div class="modal-body">
+    <p class="post-metadata">
+        <span class="metadata"><i class="fa fa-calendar"></i> {{ booking.beginAt|format_datetime('short', 'none', locale='ru') }}</span>
+        <span class="metadata"><i class="fa fa-clock"></i> {{ booking.startTime|format_datetime('none', 'short', locale='ru') }} - {{ booking.endTime ? booking.endTime|format_datetime('none', 'short', locale='ru') : '23:59' }}</span>
+        <span class="metadata"><i class="fa fa-user"></i> {{ booking.author.fullName }}</span>
+    </p>
+    <p class="post-metadata" style="color: {{ booking.color }}">
+        {{ booking.title }}
+    </p>
+    <p class="post-metadata">
+        {{ booking.description }}
+    </p>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">{{ 'action.close'|trans }}</button>
+</div>
+
