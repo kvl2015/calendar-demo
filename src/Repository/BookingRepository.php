@@ -7,10 +7,6 @@ use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @method Booking|null find($id, $lockMode = null, $lockVersion = null)
- * @method Booking|null findOneBy(array $criteria, array $orderBy = null)
- * @method Booking[]    findAll()
- * @method Booking[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
 class BookingRepository extends ServiceEntityRepository
 {
@@ -21,7 +17,7 @@ class BookingRepository extends ServiceEntityRepository
 
 
     /**
-    * @return Booking[] Returns an array of Booking objects
+    *
     */
     public function findLatest()
     {
@@ -34,11 +30,24 @@ class BookingRepository extends ServiceEntityRepository
             ->getQuery()
             ->getResult()
         ;
-
-
-        //return $qb;
-        //return (new Paginator($qb))->paginate($page);
     }
+
+    /**
+     *
+     */
+    public function findExpired()
+    {
+        return $this->createQueryBuilder('b')
+            ->where('b.beginAt < :now')
+            ->where('b.endTime < :now')
+            ->andWhere('b.status = :status')
+            ->setParameter('now', new \DateTime())
+            ->setParameter('status', 'new')
+            ->getQuery()
+            ->getResult()
+            ;
+    }
+
 
     // /**
     //  * @return Booking[] Returns an array of Booking objects
